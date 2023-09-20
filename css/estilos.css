@@ -1,0 +1,224 @@
+/* ESTILOS NAVBAR */
+.ph-youtube-logo {
+    font-size: 24px;
+    line-height: 1;
+}
+.ph-instagram-logo {
+    font-size: 24px;
+    line-height: 1;
+}
+.icon-button {
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ECECEC;
+    color: #190F57;
+    border-radius: 100%;
+}
+.icon-button:hover {
+    background-color: #190F57;
+    color: #ffffff;
+}
+.icon-button:visited {
+    color: #190F57;
+}
+.icon-button:visited:hover {
+    color: #ffffff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #787878;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #190F57;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: #241ECE;
+    font-weight: 500;
+    border-bottom: solid 3px #241ECE;
+}
+.navbar-light .navbar-nav .nav-link.active:hover {
+    color: #190F57;
+    font-weight: 500;
+    border-bottom: solid 3px #190F57;
+}
+/* Estilos sticky */
+.sticky-top {
+    border-bottom: solid 1px #ECECEC;
+}
+
+/* ESTILOS HERO */
+/* Estilo para el contenedor del hero */
+.banner-container {
+    position: relative;
+    width: 100%;
+    /*
+    padding-bottom: 42.55%; */
+    height: 480px;
+    overflow: hidden;
+}
+/* Estilo para el banner principal (imagen de fondo) */
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/inicio/Banner.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+/* Estilo para el overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Estilo para el texto en el centro */
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ESTILOS CARRUSEL CARDS PROMESAS */
+#hero {
+    position: relative;
+    z-index: 1;
+}
+.main-inicio {
+    position: relative;
+    z-index: 2;
+    margin-top: -48px;
+}
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 16px 16px 64px 0px rgba(207, 0, 152, 0.05), 8px 8px 24px 0px rgba(36, 30, 206, 0.05), 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+}
+.card-img-top {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+/* ESTILOS BUTTON */
+.btn-primary {
+    color: #fff;
+    background-color: #241ECE;
+    border-color: #241ECE;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #190F57;
+    border-color: #190F57;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #241ECE;
+    border-color: #241ECE;
+    box-shadow: 0 0 0 0.25rem rgba(255, 58, 203, 0.25);
+}
+
+/* ESTILOS SINOPSIS */
+.img-320 {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+/* ESTILOS PREMIOS */
+.img-premio {
+    filter: grayscale(100%);
+}
+.img-premio:hover {
+    filter: none;
+}
+
+/* ESTILOS SECTIONS */
+.bg-gray {
+    background-color: rgba(236, 236, 236, 0.20);
+}
+
+/* ESTILOS FOOTER */
+.img-bg-footer {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 320
+        px;
+        background-image: url('../img/inicio/image-footer.jpg');
+        background-size: cover;
+        background-position: top;
+}
+
+/* ESTILOS BANNER INTERNO */
+.banner-interno-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.banner-interno {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/brand/Banner-interno.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* ESTILOS GALERÍA */
+.gallery-item {
+    overflow: hidden;
+    position: relative;
+    padding-top: 100%;
+    border-radius: 16px;
+}
+
+.gallery-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.2);
+}
+
+/* Estilo para las imágenes rectangulares */
+.gallery-item-rectangular {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.gallery-item-rectangular img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+
+.gallery-item-rectangular:hover img {
+    transform: scale(1.2);
+}
