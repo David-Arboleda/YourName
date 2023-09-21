@@ -248,3 +248,11 @@
 .ImgFullWidth {
     width: 100%;
 }
+
+/* ESTILOS TRAILER */
+#trailer {
+    margin: 32px;
+}
+.VideoTrailer {
+    width: 100%;
+}
