@@ -32,16 +32,16 @@
 }
 .navbar-light .navbar-nav .nav-link:hover {
     color: #190F57;
-    font-weight: 500;
+    font-weight: 600;
 }
 .navbar-light .navbar-nav .nav-link.active {
     color: #241ECE;
-    font-weight: 500;
+    font-weight: 600;
     border-bottom: solid 3px #241ECE;
 }
 .navbar-light .navbar-nav .nav-link.active:hover {
     color: #190F57;
-    font-weight: 500;
+    font-weight: 600;
     border-bottom: solid 3px #190F57;
 }
 /* Estilos sticky */
@@ -221,4 +221,11 @@
 
 .gallery-item-rectangular:hover img {
     transform: scale(1.2);
+}
+
+/* ESTILOS REPARTO */
+.ImgReparto {
+    width: 50%;
+    height: 400px;
+    object-fit: scale-down;
 }
