@@ -1,3 +1,9 @@
+// Variables de color
+$color-primary: #241ECE;
+$color-gray: #787878;
+$color-white: #ffffff;
+$color-gray-2: #ECECEC;
+
 /* ESTILOS NAVBAR */
 .ph-youtube-logo,
 .ph-instagram-logo {
@@ -11,20 +17,20 @@
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #ECECEC;
-    color: #190F57;
+    background-color: $color-gray-2;
+    color: $color-primary;
     border-radius: 100%;
 
     &:hover {
-        background-color: #190F57;
-        color: #ffffff;
+        background-color: $color-primary;
+        color: $color-white;
     }
 
     &:visited {
-        color: #190F57;
+        color: $color-primary;
 
         &:hover {
-            color: #ffffff;
+            color: $color-white;
         }
     }
 }
@@ -32,22 +38,22 @@
 .navbar-light {
     .navbar-nav {
         .nav-link {
-            color: #787878;
+            color: $color-gray;
 
             &:hover {
-                color: #190F57;
+                color: $color-primary;
                 font-weight: 600;
             }
 
             &.active {
-                color: #241ECE;
+                color: $color-primary;
                 font-weight: 600;
-                border-bottom: solid 3px #241ECE;
+                border-bottom: solid 3px $color-primary;
 
                 &:hover {
-                    color: #190F57;
+                    color: $color-primary;
                     font-weight: 600;
-                    border-bottom: solid 3px #190F57;
+                    border-bottom: solid 3px $color-primary;
                 }
             }
         }
@@ -56,7 +62,7 @@
 
 /* Estilos sticky */
 .sticky-top {
-    border-bottom: solid 1px #ECECEC;
+    border-bottom: solid 1px $color-gray-2;
 }
 
 /* ESTILOS HERO */
@@ -97,7 +103,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    color: $color-white;
     text-align: center;
 }
 
@@ -126,12 +132,12 @@
 
 /* ESTILOS BUTTON */
 .btn-primary {
-    color: #fff;
-    background-color: #241ECE;
-    border-color: #241ECE;
+    color: $color-white;
+    background-color: $color-primary;
+    border-color: $color-primary;
 
     &:hover {
-        color: #fff;
+        color: $color-white;
         background-color: #190F57;
         border-color: #190F57;
     }
@@ -139,9 +145,9 @@
     &.btn-check:focus {
         + .btn-primary,
         &:focus {
-            color: #fff;
-            background-color: #241ECE;
-            border-color: #241ECE;
+            color: $color-white;
+            background-color: $color-primary;
+            border-color: $color-primary;
             box-shadow: 0 0 0 0.25rem rgba(255, 58, 203, 0.25);
         }
     }
@@ -280,6 +286,24 @@
     margin: 32px;
 }
 
-.VideoTrailer {
+.video-yt {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    border-radius: 32px;
+    box-shadow: 16px 16px 64px 0px rgba(207, 0, 152, 0.05), 8px 8px 24px 0px rgba(36, 30, 206, 0.05), 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+  }
 }
+
+.FondoOscuro {
+    background: linear-gradient(to bottom, rgba(255, 192, 203, 0.8) 0%, rgba(255, 192, 203, 0) 100%);
+    z-index: 1;
+    position: relative;
+  }
