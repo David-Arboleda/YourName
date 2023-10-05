@@ -1,0 +1,285 @@
+/* ESTILOS NAVBAR */
+.ph-youtube-logo,
+.ph-instagram-logo {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ECECEC;
+    color: #190F57;
+    border-radius: 100%;
+
+    &:hover {
+        background-color: #190F57;
+        color: #ffffff;
+    }
+
+    &:visited {
+        color: #190F57;
+
+        &:hover {
+            color: #ffffff;
+        }
+    }
+}
+
+.navbar-light {
+    .navbar-nav {
+        .nav-link {
+            color: #787878;
+
+            &:hover {
+                color: #190F57;
+                font-weight: 600;
+            }
+
+            &.active {
+                color: #241ECE;
+                font-weight: 600;
+                border-bottom: solid 3px #241ECE;
+
+                &:hover {
+                    color: #190F57;
+                    font-weight: 600;
+                    border-bottom: solid 3px #190F57;
+                }
+            }
+        }
+    }
+}
+
+/* Estilos sticky */
+.sticky-top {
+    border-bottom: solid 1px #ECECEC;
+}
+
+/* ESTILOS HERO */
+/* Estilo para el contenedor del hero */
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 480px;
+    overflow: hidden;
+    /* padding-bottom: 42.55%; */
+}
+
+/* Estilo para el banner principal (imagen de fondo) */
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/inicio/Banner.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* Estilo para el overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el texto en el centro */
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-align: center;
+}
+
+/* ESTILOS CARRUSEL CARDS PROMESAS */
+#hero {
+    position: relative;
+    z-index: 1;
+}
+
+.main-inicio {
+    position: relative;
+    z-index: 2;
+    margin-top: -48px;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 16px 16px 64px 0px rgba(207, 0, 152, 0.05), 8px 8px 24px 0px rgba(36, 30, 206, 0.05), 0px 0px 16px 0px rgba(0, 0, 0, 0.10);
+
+    .card-img-top {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+}
+
+/* ESTILOS BUTTON */
+.btn-primary {
+    color: #fff;
+    background-color: #241ECE;
+    border-color: #241ECE;
+
+    &:hover {
+        color: #fff;
+        background-color: #190F57;
+        border-color: #190F57;
+    }
+
+    &.btn-check:focus {
+        + .btn-primary,
+        &:focus {
+            color: #fff;
+            background-color: #241ECE;
+            border-color: #241ECE;
+            box-shadow: 0 0 0 0.25rem rgba(255, 58, 203, 0.25);
+        }
+    }
+}
+
+/* ESTILOS SINOPSIS */
+.img-320 {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+/* ESTILOS PREMIOS */
+.img-premio {
+    filter: grayscale(100%);
+
+    &:hover {
+        filter: none;
+    }
+}
+
+/* ESTILOS SECTIONS */
+.bg-gray {
+    background-color: rgba(236, 236, 236, 0.20);
+}
+
+/* ESTILOS FOOTER */
+.img-bg-footer {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 320px;
+    background-image: url('../img/inicio/image-footer.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+/* ESTILOS BANNER INTERNO */
+.banner-interno-container {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+    .banner-interno {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/brand/Banner-interno.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* ESTILOS GALERÍA */
+.gallery-item {
+    overflow: hidden;
+    position: relative;
+    padding-top: 100%;
+    border-radius: 16px;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+/* Estilo para las imágenes rectangulares */
+.gallery-item-rectangular {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    border-radius: 16px;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+/* ESTILOS REPARTO */
+.ImgReparto {
+    width: 50%;
+    height: 400px;
+    object-fit: scale-down;
+}
+
+/* ESTILOS AUTOR */
+#Autor {
+    margin: 32px;
+}
+
+#CarruselAutor {
+    margin: 32px;
+
+    div {
+        i {
+            display: block;
+            padding: 8px;
+            background-color: rgb(218, 218, 218);
+            border-radius: 99px;
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.ImgFullWidth {
+    width: 100%;
+}
+
+/* ESTILOS TRAILER */
+#trailer {
+    margin: 32px;
+}
+
+.VideoTrailer {
+    width: 100%;
+}
