@@ -4,6 +4,63 @@ $color-gray: #787878;
 $color-white: #ffffff;
 $color-gray-2: #ECECEC;
 
+//Variables de tipografía
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600&display=swap');
+
+$raleway-h1-size: 30px;
+$raleway-h2-size: 26px;
+$raleway-h3-size: 22px;
+$raleway-h4-size: 18px;
+$raleway-h5-size: 16px;
+
+$raleway-h1-weight: 600;
+$raleway-h2-weight: 600;
+$raleway-h3-weight: 500;
+$raleway-h4-weight: 500;
+$raleway-h5-weight: 500;
+
+$raleway-p-size: 16px;
+$raleway-p-weight: 400;
+
+/* ESTILOS TIPOGRAFÍA */
+// Estilos para los elementos
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: $raleway-h1-size;
+    font-weight: $raleway-h1-weight;
+  }
+  
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: $raleway-h2-size;
+    font-weight: $raleway-h2-weight;
+  }
+  
+  h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: $raleway-h3-size;
+    font-weight: $raleway-h3-weight;
+  }
+  
+  h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: $raleway-h4-size;
+    font-weight: $raleway-h4-weight;
+  }
+  
+  h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: $raleway-h5-size;
+    font-weight: $raleway-h5-weight;
+  }
+  
+  p {
+    font-family: 'Raleway', sans-serif;
+    font-size: $raleway-p-size;
+    font-weight: $raleway-p-weight;
+  }
+
 /* ESTILOS NAVBAR */
 .ph-youtube-logo,
 .ph-instagram-logo {
