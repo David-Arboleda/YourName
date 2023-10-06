@@ -275,13 +275,15 @@
 /* ESTILOS REPARTO */
 /* line 254, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .ImgReparto {
-  width: 50%;
-  height: 400px;
-  object-fit: scale-down;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 1rem 1rem 0 0;
 }
 
 /* ESTILOS AUTOR */
-/* line 262, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 264, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .img-200 {
   width: 100%;
   height: 200px;
@@ -289,19 +291,19 @@
 }
 
 /* ESTILOS TRAILER */
-/* line 269, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 271, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 #trailer {
   margin: 32px;
 }
 
-/* line 273, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 275, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .video-yt {
   position: relative;
   width: 100%;
   padding-top: 56.25%;
 }
 
-/* line 278, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 280, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .video-yt iframe {
   position: absolute;
   top: 0;
@@ -312,7 +314,7 @@
   box-shadow: 16px 16px 64px 0px rgba(207, 0, 152, 0.05), 8px 8px 24px 0px rgba(36, 30, 206, 0.05), 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 289, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 291, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .FondoOscuro {
   background: linear-gradient(to bottom, rgba(255, 192, 203, 0.8) 0%, rgba(255, 192, 203, 0) 100%);
   z-index: 1;

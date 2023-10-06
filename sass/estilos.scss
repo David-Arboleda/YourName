@@ -252,9 +252,11 @@ $color-gray-2: #ECECEC;
 
 /* ESTILOS REPARTO */
 .ImgReparto {
-    width: 50%;
-    height: 400px;
-    object-fit: scale-down;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 1rem 1rem 0 0;
 }
 
 /* ESTILOS AUTOR */
