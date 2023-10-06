@@ -166,7 +166,7 @@
 /* line 157, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .img-320 {
   width: 100%;
-  height: 320px;
+  height: 400px;
   object-fit: cover;
   border-radius: 1rem;
 }
@@ -281,45 +281,27 @@
 }
 
 /* ESTILOS AUTOR */
-/* line 261, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
-#Autor {
-  margin: 32px;
-}
-
-/* line 265, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
-#CarruselAutor {
-  margin: 32px;
-}
-
-/* line 269, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
-#CarruselAutor div i {
-  display: block;
-  padding: 8px;
-  background-color: #dadada;
-  border-radius: 99px;
-  width: 40px;
-  height: 40px;
-}
-
-/* line 280, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
-.ImgFullWidth {
+/* line 262, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+.img-200 {
   width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 /* ESTILOS TRAILER */
-/* line 285, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 269, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 #trailer {
   margin: 32px;
 }
 
-/* line 289, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 273, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .video-yt {
   position: relative;
   width: 100%;
   padding-top: 56.25%;
 }
 
-/* line 294, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 278, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .video-yt iframe {
   position: absolute;
   top: 0;
@@ -330,7 +312,7 @@
   box-shadow: 16px 16px 64px 0px rgba(207, 0, 152, 0.05), 8px 8px 24px 0px rgba(36, 30, 206, 0.05), 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 305, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 289, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .FondoOscuro {
   background: linear-gradient(to bottom, rgba(255, 192, 203, 0.8) 0%, rgba(255, 192, 203, 0) 100%);
   z-index: 1;
