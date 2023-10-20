@@ -82,22 +82,23 @@ p {
 /* line 97, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link {
   color: #787878;
+  transition: all .2s;
 }
 
-/* line 100, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 101, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link:hover {
   color: #241ECE;
   font-weight: 600;
 }
 
-/* line 105, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 106, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link.active {
   color: #241ECE;
   font-weight: 600;
   border-bottom: solid 3px #241ECE;
 }
 
-/* line 110, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 111, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .navbar-light .navbar-nav .nav-link.active:hover {
   color: #241ECE;
   font-weight: 600;
@@ -105,14 +106,14 @@ p {
 }
 
 /* Estilos sticky */
-/* line 121, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 122, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .sticky-top {
   border-bottom: solid 1px #ECECEC;
 }
 
 /* ESTILOS HERO */
 /* Estilo para el contenedor del hero */
-/* line 127, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 128, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .banner-container {
   position: relative;
   width: 100%;
@@ -122,7 +123,7 @@ p {
 }
 
 /* Estilo para el banner principal (imagen de fondo) */
-/* line 136, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 137, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .banner {
   position: absolute;
   top: 0;
@@ -135,7 +136,7 @@ p {
 }
 
 /* Estilo para el overlay */
-/* line 148, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 149, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .overlay {
   position: absolute;
   top: 0;
@@ -146,7 +147,7 @@ p {
 }
 
 /* Estilo para el texto en el centro */
-/* line 158, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 159, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .centered-text {
   position: absolute;
   top: 50%;
@@ -157,48 +158,48 @@ p {
 }
 
 /* ESTILOS CARRUSEL CARDS PROMESAS */
-/* line 168, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 169, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 #hero {
   position: relative;
   z-index: 1;
 }
 
-/* line 173, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 174, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .main-inicio {
   position: relative;
   z-index: 2;
   margin-top: -48px;
 }
 
-/* line 179, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 180, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .card {
   border: none;
   border-radius: 1rem;
   box-shadow: 16px 16px 64px 0px rgba(207, 0, 152, 0.05), 8px 8px 24px 0px rgba(36, 30, 206, 0.05), 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 184, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 185, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .card .card-img-top {
   border-top-left-radius: 1rem;
   border-top-right-radius: 1rem;
 }
 
 /* ESTILOS BUTTON */
-/* line 191, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 192, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .btn-primary {
   color: #ffffff;
   background-color: #241ECE;
   border-color: #241ECE;
 }
 
-/* line 196, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 197, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .btn-primary:hover {
   color: #ffffff;
   background-color: #190F57;
   border-color: #190F57;
 }
 
-/* line 203, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 204, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .btn-primary.btn-check:focus + .btn-primary, .btn-primary.btn-check:focus:focus {
   color: #ffffff;
   background-color: #241ECE;
@@ -207,7 +208,7 @@ p {
 }
 
 /* ESTILOS SINOPSIS */
-/* line 214, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 215, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .img-320 {
   width: 100%;
   height: 400px;
@@ -216,24 +217,24 @@ p {
 }
 
 /* ESTILOS PREMIOS */
-/* line 222, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 223, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .img-premio {
   filter: grayscale(100%);
 }
 
-/* line 225, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 226, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .img-premio:hover {
   filter: none;
 }
 
 /* ESTILOS SECTIONS */
-/* line 231, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 232, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .bg-gray {
   background-color: rgba(236, 236, 236, 0.2);
 }
 
 /* ESTILOS FOOTER */
-/* line 236, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 237, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .img-bg-footer {
   position: relative;
   top: 0;
@@ -246,7 +247,7 @@ p {
 }
 
 /* ESTILOS BANNER INTERNO */
-/* line 248, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 249, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .banner-interno-container {
   position: relative;
   width: 100%;
@@ -254,7 +255,7 @@ p {
   overflow: hidden;
 }
 
-/* line 254, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 255, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .banner-interno-container .banner-interno {
   position: absolute;
   top: 0;
@@ -267,7 +268,7 @@ p {
 }
 
 /* ESTILOS GALERÍA */
-/* line 267, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 268, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .gallery-item {
   overflow: hidden;
   position: relative;
@@ -275,7 +276,7 @@ p {
   border-radius: 16px;
 }
 
-/* line 273, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 274, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .gallery-item img {
   position: absolute;
   top: 0;
@@ -286,13 +287,13 @@ p {
   transition: transform 0.3s;
 }
 
-/* line 282, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 283, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .gallery-item img:hover {
   transform: scale(1.2);
 }
 
 /* Estilo para las imágenes rectangulares */
-/* line 289, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 290, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .gallery-item-rectangular {
   overflow: hidden;
   position: relative;
@@ -300,7 +301,7 @@ p {
   border-radius: 16px;
 }
 
-/* line 295, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 296, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .gallery-item-rectangular img {
   position: absolute;
   top: 0;
@@ -311,13 +312,13 @@ p {
   transition: transform 0.3s;
 }
 
-/* line 304, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 305, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .gallery-item-rectangular img:hover {
   transform: scale(1.2);
 }
 
 /* ESTILOS REPARTO */
-/* line 311, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 312, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .ImgReparto {
   width: 100%;
   height: 320px;
@@ -327,7 +328,7 @@ p {
 }
 
 /* ESTILOS AUTOR */
-/* line 321, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 322, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .img-200 {
   width: 100%;
   height: 200px;
@@ -335,19 +336,19 @@ p {
 }
 
 /* ESTILOS TRAILER */
-/* line 328, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 329, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 #trailer {
   margin: 32px;
 }
 
-/* line 332, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 333, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .video-yt {
   position: relative;
   width: 100%;
   padding-top: 56.25%;
 }
 
-/* line 337, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 338, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .video-yt iframe {
   position: absolute;
   top: 0;
@@ -358,7 +359,7 @@ p {
   box-shadow: 16px 16px 64px 0px rgba(207, 0, 152, 0.05), 8px 8px 24px 0px rgba(36, 30, 206, 0.05), 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
 }
 
-/* line 348, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
+/* line 349, ../../../../../../../../../../../../../Users/davidarboleda/Documents/David/Ed. Continua/Coder/Desarrollo Web/_Proyecto/2-Preentrega-David Arboleda/YourName/sass/estilos.scss */
 .FondoOscuro {
   background: linear-gradient(to bottom, rgba(255, 192, 203, 0.8) 0%, rgba(255, 192, 203, 0) 100%);
   z-index: 1;

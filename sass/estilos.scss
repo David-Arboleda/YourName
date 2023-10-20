@@ -96,6 +96,7 @@ h1 {
     .navbar-nav {
         .nav-link {
             color: $color-gray;
+            transition: all .2s;
 
             &:hover {
                 color: $color-primary;
